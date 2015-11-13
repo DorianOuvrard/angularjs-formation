@@ -1,0 +1,37 @@
+<p ma-directive ></p>
+
+<div class="jumbotron">
+
+  <div style="padding:30px;border: 1px solid red">
+
+    <div ng-controller="Test2Controller">
+
+      <p>Wesh {{who}}, {{what}}!</p>
+
+
+
+
+      <div style="padding:30px;border: 1px solid blue" ng-controller="ChildController">
+
+        <p>Wesh {{who}}, {{what}}!</p>
+
+
+
+
+        <div style="padding:30px;border: 1px solid green" ng-controller="GrandChildController">
+
+          <p>Wesh {{who}}, {{what}}!</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+</div>
